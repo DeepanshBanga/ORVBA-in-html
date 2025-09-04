@@ -7,12 +7,13 @@ import { UserRole, Product, ServiceRequest } from "@/types";
 // Replace these placeholders with your actual Firebase configuration
 // You can find these values in your Firebase project settings
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyD_LIXww6VaQB0NBTBLnQXJRnDVUBJ-H8c",
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "orva-app.firebaseapp.com",
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "orva-app",
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "orva-app.appspot.com",
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "123456789012",
-  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:123456789012:web:abcdef1234567890"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyCZ5-7XJgm9iHqxCQcg7Ta6SbQeiAkCwCE",
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "orvbassist.firebaseapp.com",
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "orvbassist",
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "orvbassist.firebasestorage.app",
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "78988483717",
+  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:78988483717:web:4962574e0f8fcedcb69dec",
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID || "G-YF2P701CY5"
 };
 
 // Initialize Firebase
