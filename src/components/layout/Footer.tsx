@@ -79,12 +79,12 @@ const Footer = () => {
               <div className="flex items-start">
                 <MapPin className="h-5 w-5 text-gray-400 mr-2 mt-0.5" />
                 <span className="text-gray-400">
-                  123 Roadside Avenue, Automotive City, AC 12345
+                  Mohali , Punjab, India
                 </span>
               </div>
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-gray-400 mr-2" />
-                <span className="text-gray-400">+1 (555) 123-4567</span>
+                <span className="text-gray-400">+91 7015003372</span>
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-gray-400 mr-2" />

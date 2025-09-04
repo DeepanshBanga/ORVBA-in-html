@@ -4,8 +4,8 @@ import { createClient } from '@supabase/supabase-js';
 import { Database } from './types';
 
 // Use the values directly from the environment variables or fall back to the example values
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || 'https://zojeyhdebexjklkfdfxd.supabase.co';
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpvamV5aGRlYmV4amtsa2ZkZnhkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDQ1NzIwNDEsImV4cCI6MjA2MDE0ODA0MX0.xrHPwGxIoJUR8DGHMOpUGvX8setvdPZK4c6oy1lWCZg';
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL || 'https://kslvspcgnztarhdvnsks.supabase.co';
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtzbHZzcGNnbnp0YXJoZHZuc2tzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTY5NzcyOTgsImV4cCI6MjA3MjU1MzI5OH0.plbk-X2eEFY8YOq3XNwrq0HnrRSMzGCtBj2d-mL-XcU';
 
 // Remove the error check since we now have fallback values
 // This prevents the app from crashing if environment variables are not set
