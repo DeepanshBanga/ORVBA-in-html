@@ -118,9 +118,9 @@ const Services = () => {
               size="lg" 
               variant="outline"
               className="text-lg"
-              onClick={() => window.location.href = "tel:+15551234567"}
+              onClick={() => window.location.href = "tel:+917015003372"}
             >
-              Call Now: (555) 123-4567
+              Call Now: (91) 701-5003372
             </Button>
           </div>
         </div>

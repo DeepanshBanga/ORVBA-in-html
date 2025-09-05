@@ -62,8 +62,8 @@ const Contact = () => {
               </div>
               <h3 className="text-lg font-semibold mb-2">Call Us</h3>
               <p className="text-gray-600 mb-4">For immediate assistance with roadside emergencies</p>
-              <a href="tel:+15551234567" className="text-orva-blue font-semibold hover:underline">
-                (555) 123-4567
+              <a href="tel:+917015003372" className="text-orva-blue font-semibold hover:underline">
+                (91) 701-5003372
               </a>
             </div>
 
@@ -86,7 +86,7 @@ const Contact = () => {
               <p className="text-gray-600 mb-4">Our headquarters location</p>
               <address className="not-italic text-orva-blue">
                 123 Roadside Avenue<br />
-                Automotive City, AC 12345
+                Mohali , Punjab, India<br />
               </address>
             </div>
           </div>
@@ -175,7 +175,7 @@ const Contact = () => {
                 
                 <div className="mt-8">
                   <Button variant="outline" className="bg-transparent border-white text-white hover:bg-white/20" asChild>
-                    <a href="tel:+15551234567">Call Emergency Line</a>
+                    <a href="tel:+917015003372">Call Emergency Line</a>
                   </Button>
                 </div>
               </div>
